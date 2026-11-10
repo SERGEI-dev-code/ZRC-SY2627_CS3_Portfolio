@@ -1,0 +1,8 @@
+1.
+These methods function as a standardized interface across multiple classes. They enable distinct objects to respond to the exact same call, even though every class handles the execution details in its own customized way.
+
+2.
+This activity demonstrates polymorphism by allowing a single method call to produce distinct outcomes based on the entity invoking it. Even though a Warrior, Mage, and Archer all share the special_move() method, triggering it activates a unique power specific to that character class.
+
+3.
+Yes. An interact() method is a clear example: executing interact() on a Treasure Chest unlocks loot, calling it on a Door swings a entry open, and calling it on an NPC brings up dialogue. Another example is an activate() method on game items, where using a Speed Boost speeds up movement, using a Shield Generator gains temp armor, and using a Teleport Scroll instantly relocates the player.

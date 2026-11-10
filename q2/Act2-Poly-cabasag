@@ -1,0 +1,6 @@
+1.a. Duck typing is a Python programming concept where an object's suitability is determined by the presence of specific methods and behaviors rather than its explicit class or inheritance hierarchy. As long as an object implements the required method, Python processes it regardless of its type.
+
+b. The Car class simply needed to define the same method name (such as move()) that the loop invokes. Because Python prioritizes capabilities over class lineage, having that matching method enabled Car to execute inside the loop alongside Dog and Cat without needing to inherit from the Animal class.
+
+3.
+The code illustrates polymorphism because the Car, Boat, and Drone classes all implement a shared move() method, yet each carries out its own distinct action. The start_trip() function accepts any of these objects and executes cleanly without needing to verify their specific class types. This also exemplifies duck typing, as the function relies solely on the existence of the move() method to perform its task.

@@ -1,0 +1,39 @@
+class Warrior:
+    def __init__(self, name):
+        self.name = name
+
+    def special_move(self):
+        print(f"{self.name} swings a mighty sword!")
+
+
+class Mage:
+    def __init__(self, name):
+        self.name = name
+
+    def special_move(self):
+        print(f"{self.name} casts a powerful spell!")
+
+
+class Archer:
+    def __init__(self, name):
+        self.name = name
+
+    def special_move(self):
+        print(f"{self.name} shoots a precise arrow!")
+
+
+def perform_move(character):
+    character.special_move()
+
+
+
+warrior1 = Warrior("Warrior")
+mage1 = Mage("Mage")
+archer1 = Archer("Archer")
+
+
+characters = [warrior1, mage1, archer1]
+
+
+for character in characters:
+    perform_move(character)
